@@ -1,0 +1,7 @@
+{
+  "name": "SereneHer: AI-Powered Wellness for Women",
+  "description": "A production-ready mental health support ecosystem for women, featuring AI-driven empathetic chat, mood tracking, community support, and crisis intervention resources.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
