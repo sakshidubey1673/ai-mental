@@ -37,5 +37,27 @@
 </head>
 <body>
     <div id="root"></div>
+    <script type="module">
+  import React from "react";
+  import { createRoot } from "react-dom/client";
+
+  function App() {
+    return React.createElement(
+      "h1",
+      {
+        style: {
+          textAlign: "center",
+          marginTop: "50px",
+          fontSize: "32px",
+          color: "#6b4e3d"
+        }
+      },
+      "SereneHer Website Live ✅"
+    );
+  }
+
+  const root = createRoot(document.getElementById("root"));
+  root.render(React.createElement(App));
+</script>
 </body>
 </html>
